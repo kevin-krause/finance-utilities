@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Cosntruir as funcionalidades
 @app.route('/')
 def pegardados():
-  dadosAPI = pd.read_csv('C:/Codding Hub/2022/py/Simple-TF/Heatmap/distortions/dados/dados.csv')
+  dadosAPI = pd.read_csv('./file_path.csv')
   dadosAPI = (dadosAPI.to_string())
    
 
@@ -17,8 +17,5 @@ def pegardados():
 
  
 
-# Rodar API
 app.run()
-
-# tabela = pd.read_csv('2022/py/Simple-TF/Heatmap/dados/dados.csv')
 
