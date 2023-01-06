@@ -74,28 +74,4 @@ def pegardados():
     print (dadoAPI)
 
     # print(res.value.to_string())
-    '''
-  jsonData = res.value.to_json(
-      "C:/Codding Hub/2022/py/Simple-TF/Heatmap/distortions/dados/jsonData.json")
-  '''
 
-    '''pf = vbt.Portfolio.from_signals(mdata, entries, exits)
-  returns = pf.total_return()
-  # (pf.stats())
-  print(returns.max())
-  print(pf)
-  pf.value().vbt.plot().show()'''
-
-    # CSV
-
-
-'''  dadosAPI = (res.value.to_json())
-  resposta= {'dados': dadosAPI}
-
-  return (resposta)
-'''
-        
-# Rodar API
-app.run()
-
-# tabela = pd.read_csv('2022/py/Simple-TF/Heatmap/dados/dados.csv')
