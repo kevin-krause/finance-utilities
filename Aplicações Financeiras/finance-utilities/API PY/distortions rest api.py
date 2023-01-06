@@ -85,5 +85,3 @@ def pegardados():
 # Rodar API
 app.run()
 
-# tabela = pd.read_csv('2022/py/Simple-TF/Heatmap/dados/dados.csv')
-
